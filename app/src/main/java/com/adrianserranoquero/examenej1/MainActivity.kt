@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ExamenEj1Theme {
-                MyVideojuego();
+                MyVideojuego(List<videojuego> videos);
             }
         }
     }
